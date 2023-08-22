@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  margin: 0 26.7vw;
+  background-image: url(./imagens/fundo2.png);
+}
+
+.background-home {
+  background-image: url(./imagens/fundo.png);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.5vh 0;
+}
+
+.navigation {
+  display: flex;
+  gap: 5px;
+}
+
+.lista {
+  margin-left: 5%;
+}
+
+.line-top {
+  border-top: 1px solid rgb(190, 190, 190);
+  padding-top: 2vh;
+}
+
+.line-bottom {
+  border-bottom: 1px solid rgb(190, 190, 190);
+  padding-bottom: 1vh;
+}
+
+.text-margin-top {
+  margin-top: 2vh;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  gap: 4px;
+}
+
+#input-config {
+  border: 1px solid black;
+  height: 2vh;
+}
+
+#descricao {
+  border: 1px solid black;
+  width: 9vw;
+}
+
+#enviar {
+  border: 1px solid black;
+  width: 3vw;
+  padding: 3px 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.text-bold {
+  font-weight: bold;
+}
